@@ -1,0 +1,36 @@
+body{
+  background: url(../Resources/Images/lasagna.png);
+  background-size: cover;
+  margin: 0;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+}
+p{
+  font-size: 25px;
+  color: white;
+}
+img {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+}
+.title{
+  font-size: 45px;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(rgb(248, 248, 0), rgb(245, 14, 14));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description{
+  padding: 10px 50px;
+  text-align: center;
+}
+ul,ol{
+  color: white;
+  font-size: 20px;
+}
