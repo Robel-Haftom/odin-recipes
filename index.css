@@ -1,0 +1,32 @@
+body{
+  background: url(./Resources/Images/background.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+div{
+  text-align: start;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.title{
+  font-size: 50px;
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: orange;
+  padding: 10px;
+  margin: 10px;
+}
